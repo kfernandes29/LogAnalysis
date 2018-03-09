@@ -28,7 +28,8 @@ This script will print out results from three queries against the database.
 4. Still in Terminal, type ```vagrant up``` and wait a couple of minutes as the virtual machine is downloaded and set up
 5. Extract the contents of the newsdata.zip file to the ```/vagrant``` folder that has been created
 6. Back in Terminal, type ```vagrant ssh``` to log in to your virtual machine
-7. Type ```psql -d news -f newsdata.sql``` in the Terminal to set up the database
+7. Change directory to the /vagrant folder ```cd /vagrant```
+8. Type ```psql -d news -f newsdata.sql``` in the Terminal to set up the database
 
 ## Run
 
