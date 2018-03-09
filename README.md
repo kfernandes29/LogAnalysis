@@ -17,6 +17,19 @@ This script will print out results from three queries against the database.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [PostgreSQL](http://www.postgresql.org)
 
+* [Vagrantfile](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f73b_vagrantfile/vagrantfile)
+* [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+
+## Setup
+
+1. Install Vagrant and Virtual Box on your computer
+2. Download the Vagrantfile and place it in a new directory
+3. Open Terminal and change directory to the folder containing the Vagrant file ```cd <folder with Vagrantfile>```
+4. Still in Terminal, type ```vagrant up``` and wait a couple of minutes as the virtual machine is downloaded and set up
+5. Extract the contents of the newsdata.zip file to the ```/vagrant``` folder that has been created
+6. Back in Terminal, type ```vagrant ssh``` to log in to your virtual machine
+7. Type ```psql -d news -f newsdata.sql``` in the Terminal to set up the database
+
 ## Run
 
 Open your Terminal and run the following commands from the directory containing the contents of this repo.
