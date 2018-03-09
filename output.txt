@@ -1,0 +1,21 @@
+What are the three most popular articles of all time?
+
+
+Article: Candidate is jerk, alleges rival | Views: 338647
+Article: Bears love berries, alleges bear | Views: 253801
+Article: Bad things gone, say good people | Views: 170098
+
+
+Who are the most popular article authors of all time?
+
+
+Author: Ursula La Multa | Views: 507594
+Author: Rudolf von Treppenwitz | Views: 423457
+Author: Anonymous Contributor | Views: 170098
+Author: Markoff Chaney | Views: 84557
+
+
+On which days did more than 1% of requests lead to errors?
+
+
+Date: Jul 17, 2016 | Errors Percentage: 2.28%
